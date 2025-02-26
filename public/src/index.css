@@ -1,6 +1,7 @@
 html{
     font-family: "Poppins", serif;
 }
+
 header{
     display: flex;
     flex-direction: row;
@@ -102,12 +103,15 @@ span:hover{
     border: none;
     box-shadow: 7px 7px #3E92CC;
     width: 100%;
-    text-align: center;
     padding: 10px;
     background-color: #D8315B;
     color: #FFFAFF;
+    text-align: center;
 }
 
+.icone{
+    width: 40px;
+}
 .depoimentos > div{
     border: none;
     box-shadow: 7px 7px #3E92CC;
