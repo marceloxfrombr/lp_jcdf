@@ -1,0 +1,175 @@
+html{
+    font-family: "Poppins", serif;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    background-color: #3E92CC;
+}
+
+header img{
+    width: 200px;
+    box-shadow: 7px 7px #0A2463;
+    background-color: #D8315B;
+    border-style: none;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header li{
+    border-style: none;
+    width: 150px;
+    text-align: center;
+    box-shadow: 7px 7px #0A2463;
+    text-transform: uppercase;
+    background-color: #D8315B;
+    cursor: pointer;
+}
+
+a:link, a:visited, a:active{
+    text-decoration: none;
+    color: #FFFAFF;
+}
+header li:hover{
+    background-color: #0A2463;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.sobre, .servicos, .depoimentos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sobre img{
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 7px 7px #D8315B;
+}
+.sobre > div{
+    padding: 50px;
+    border-style: none;
+    border-radius: 10px;
+    box-shadow: 7px 7px #D8315B;
+    background-color: #FFFAFF;
+    color: #0A2463;
+    text-align: center;
+}
+
+.servicos > div{
+    border: solid #000;
+    border-radius: 20px;
+    box-shadow: 7px 7px #000;
+    width: 300px;
+    text-align: center;
+    padding: 10px;
+    background-color: #D8315B;
+    color: #FFFAFF;
+}
+
+.depoimentos >div{
+    border: solid #000;
+    border-radius: 20px;
+    box-shadow: 7px 7px #000;
+    width: 300px;
+    text-align: center;
+    padding: 10px;
+    background-color: #D8315B;
+    color: #FFFAFF;
+}
+
+.duvidas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.duvidas h1{
+    border: solid #000;
+    width: 200px;
+    text-align: center;
+    width: 80%;
+    box-shadow: 7px 7px #000;
+    background-color: #D8315B;
+    color: #FFFAFF;
+}
+.duvidas > div{
+    border: solid #000;
+    text-align: center;
+    background-color: #D8315B;
+    color: #FFFAFF;
+    box-shadow: 7px 7px #000;
+    width: 50%;
+}
+.contato{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    background-color: #D8315B;
+    margin: 0px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    width: 40%;
+    padding: 10px;
+    background-color: #D8315B;
+}
+
+form div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+form label{
+    display: inline-block;
+    min-width: 100px;
+    color: #FFFAFF;
+    
+}
+
+input[type=text]{
+    width: 30%;
+    border: solid #3E92CC 2px;
+    border-radius: 3px;
+}
+
+button{
+    background-color: #3E92CC;
+    color: #FFFAFF;
+    border: 0px;
+    border-radius: 10px;
+    border-style: none;
+    width: 50px;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: #3E92CC;
+}
