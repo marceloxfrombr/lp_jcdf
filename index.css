@@ -243,6 +243,7 @@ footer a:hover{
         flex-direction: column;
         align-items: center;
         padding: 10px;
+        margin-bottom: 10px;
     }
     
     header ul{
@@ -267,6 +268,7 @@ footer a:hover{
 
     .sobre, .servicos{
         flex-direction: column;
+        gap: 10px;
     }
     .sobre img{
         width: 150px;
@@ -275,6 +277,7 @@ footer a:hover{
     .sobre > div{
         width: 60%;
         height: 90%;
+        padding: 15px;
     }
 
     .sobre h1{
@@ -294,15 +297,21 @@ footer a:hover{
         margin: 5px;
     }
     
+    header{
+        gap: 5px;
+    }
     header img {
         width: 90px;
+    }
+
+    header ul{
+        gap: 10px;
     }
 
     header li {
         width: 90px; 
         font-size: 14px; 
     }
-
     
     .icone {
         width: 40px;
