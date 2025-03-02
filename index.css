@@ -385,6 +385,15 @@ footer a:hover{
         height: 70%;
     }
 
+    .aula_experimental{
+        width: 70%;
+        height: 70%;
+    } 
+
+    .formulario{
+        width: 200px;
+    }   
+
 
 
 }
