@@ -157,6 +157,7 @@ span:hover{
     color: #FFFAFF;
     box-shadow: 7px 7px #3E92CC;
     width: 500px;
+    padding: 15px;
 }
 
 .duvidas span{
@@ -343,6 +344,14 @@ footer a:hover{
         font-size: 12px;
     }
 
+    .servicos > div{
+        width: 80%;
+    }
+    
+    .icone{
+        width: 30px;
+    }
+
 }
 
 @media (max-width: 480px) {
@@ -366,4 +375,16 @@ footer a:hover{
     .icone {
         width: 40px;
     }
+    .duvidas > div{
+        width: 70%;
+        height: 70%;
+    }
+
+    .servicos > div{
+        width: 70%;
+        height: 70%;
+    }
+
+
+
 }
