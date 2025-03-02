@@ -313,7 +313,7 @@ footer a:hover{
     header li{
         width: 100px;
         text-align: center;
-        font-size: 15px;
+        font-size: 13px;
     }
 
     .sobre, .servicos{
@@ -338,6 +338,10 @@ footer a:hover{
         font-size: 14px;
     }
 
+    .depoimentos{
+        font-size: 12px;
+    }
+
 }
 
 @media (max-width: 480px) {
@@ -356,11 +360,6 @@ footer a:hover{
 
     header ul{
         gap: 10px;
-    }
-
-    header li {
-        width: 90px; 
-        font-size: 14px; 
     }
     
     .icone {
